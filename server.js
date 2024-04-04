@@ -21,6 +21,9 @@ app.get('/data',(req,res)=>{
   
 })
 
+app.get('/row',(req,res)=>{
+    res.send("Hi shivam yadav")
+})
 
 
 app.listen(PORT,()=>{
