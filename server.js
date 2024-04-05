@@ -25,6 +25,10 @@ app.get('/row',(req,res)=>{
     res.send("Hi shivam yadav")
 })
 
+app.get('/Tanmay',(req,res)=>{
+    res.send("Hi Tanmay Dhillo kaisi ho")
+})
+
 
 app.listen(PORT,()=>{
     console.log(`App is listening on port ${PORT}`)
